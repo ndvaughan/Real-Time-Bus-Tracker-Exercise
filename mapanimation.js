@@ -41,6 +41,6 @@ function move() {
     counter++;
     move();
   }, 1000);
-    when (counter = max) return;
-    move();
+    when (counter = 12) return;
+    setTimeout();
 }
