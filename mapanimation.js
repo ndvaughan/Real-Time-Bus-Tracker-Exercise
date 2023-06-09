@@ -45,6 +45,6 @@ function move() {
     }
     marker.setLngLat(busStops[counter]);
     counter++;
-    move();
+    move(); // Recall the move function
   }, 1000);
 }
