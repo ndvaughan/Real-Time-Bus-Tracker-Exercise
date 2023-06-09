@@ -40,7 +40,11 @@ function move() {
     marker.setLngLat(busStops[counter]);
     counter++;
     move();
+    if (counter >= busStops.length) {
+      counter = 0; // Reset counter to 0 when it reaches the end of the array
+    }
+    marker.setLngLat(busStops[counter]);
+    counter++;
+    move();
   }, 1000);
-    when (counter = 12) return;
-    setTimeout();
 }
