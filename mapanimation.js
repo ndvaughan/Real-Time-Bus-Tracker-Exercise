@@ -41,4 +41,6 @@ function move() {
     counter++;
     move();
   }, 1000);
+    when (counter = max) return;
+    move();
 }
