@@ -32,13 +32,12 @@ let marker = new mapboxgl.Marker().setLngLat([-71.093729, 42.359244]).addTo(map)
 let counter = 0;
 function move() {
   setTimeout(() => {
-    if (counter >= busStops.length) {
-      counter = 0; // Reset counter to 0 when it reaches the end of the array
-    }
+    if (counter >= busStops.length) return;
     marker.setLngLat(busStops[counter]);
     counter++;
     move();
   }, 1000);
+  move()
 }
 
 move(); // Call the move function initially
