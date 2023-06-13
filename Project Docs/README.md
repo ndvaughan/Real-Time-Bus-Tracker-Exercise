@@ -11,10 +11,17 @@ A. Download all files from the repository
 B. Load 'index.html' on a web browser page
 C. Watch the map animation
 
+Project Status:
+Ongoing (last updated 06132023)
+
 Roadmap of Future Improvements:
 A. Incorporate different locations
 B. Develop an alert that notifies the user of the bus' location
 C. Add other bus routes
+
+Authors:
+MITx Pro Staff
+Nicholas Vaughan
 
 License Information:
 MIT License
